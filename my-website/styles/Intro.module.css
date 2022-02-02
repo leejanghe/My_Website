@@ -17,6 +17,7 @@
     font-size: 2rem;
     margin: 0;
     position: fixed;
+    white-space: nowrap;
   }
 
   .arrow{
