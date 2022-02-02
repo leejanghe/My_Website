@@ -1,45 +1,39 @@
-.test{
-    background-color: chartreuse;
-    width: 100%;
-    height: 100vh;
-}
 
-.test1{
-    /* background-color: chartreuse; */
-    /* background-color: #fff; */
-    width: 100%;
-    height: 400px;
-    opacity: .5;
-}
-
-
-
-.Introbg{
+.about_Bg{
     height: 100vh;
     width: 100%;
     margin: 0, auto;
-    /* text-align: center; */
+    text-align: center;
     background:radial-gradient(ellipse at bottom, #1b2735 0%,#090a0f 100%);
     display: flex;
     justify-content: space-between;
     position: absolute;
   }
 
-  .content{
-    color: rgb(254, 254, 254);
-    font-size: 3rem;
-  }
-
-  .sub h1{
+  .about_Text{
     color: white;
-    font-size: 2rem;
+    /* font-size: 2rem; */
     margin: 0;
     padding: 30px;
     position: relative;
-    /* top: 50%; */
     right: auto;
 }
-  .snow{
+
+.about_Text p{
+    padding-left: 2rem;
+    padding-bottom: 3px;
+    font-size: 1.5rem;
+}
+
+.about_Text h1:nth-child(1){
+    color: rgb(242, 236, 57);
+    font-size: 4rem;
+    margin: 0;
+    padding: 2rem;
+}
+
+
+  .circleBox{
     opacity: 0;
     background-color: #fff;
     width: 10px;
@@ -55,19 +49,39 @@
         transform: translateY(0);
         background-color: brown;
     }
+    10% {
+        opacity: 1;
+        transform: translateY(-15px, 10vh);
+        background-color: rgb(230, 167, 101);
+    }
     20% {
         opacity: 1;
-        transform: translateY(-15px, 20vh);
+        transform: translateY(25px, 20vh);
         background-color: rgb(165, 42, 147);
+    }
+    30% {
+        opacity: 1;
+        transform: translateY(-25px, 30vh);
+        background-color: rgb(59, 193, 223);
     }
     40% {
         opacity: 1;
         transform: translate(15px, 40vh);
         background-color: rgb(42, 165, 122);
     }
+    50% {
+        opacity: 1;
+        transform: translate(-15px, 50vh);
+        background-color: rgb(213, 231, 13);
+    }
     60% {
         opacity: 1;
-        transform: translate(-15px, 60vh);
+        transform: translate(15px, 60vh);
+        background-color: rgb(202, 9, 83);
+    }
+    70% {
+        opacity: 1;
+        transform: translate(-15px, 70vh);
         background-color: rgb(42, 87, 165);
     }
     80% {

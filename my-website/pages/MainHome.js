@@ -1,6 +1,6 @@
 import React,{useRef} from 'react'
 import Intro from './Intro'
-import Intro2 from './Intro2'
+import About from './About'
 import Test from './test'
 import Test1 from './Test1'
 
@@ -33,7 +33,7 @@ function MainHome() {
             <Intro handleScroll={handleScroll}/>
         </section>
         <section ref={aboutSection}>
-            <Intro2 />
+            <About />
         </section>
         <section>
         <Test />
