@@ -42,3 +42,19 @@
       transform: translateY(50%);
     }
   }
+
+
+  @media screen and (max-width: 620px) {
+    .IntroText{
+        font-size: 1.5rem;
+    }
+    
+    .arrow{
+        font-size: 1.7rem;
+        top: 60%;
+    }
+
+    .IntroBg{
+        height: 70vh;
+    }   
+}

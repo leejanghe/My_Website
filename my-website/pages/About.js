@@ -39,11 +39,11 @@ function About() {
                    <strong>"느린 거북이도 결승점에 도달한다!"</strong> 라는 말이 있습니다.<br />
                    어떤 분야든 배움에 끝이 없으며 어려움이 많습니다.
                 </p>
-                <p {...useScrollFadeIn('down', 1, 0.4)}>
+                <p {...useScrollFadeIn('down', 1, 0.5)}>
                    하지만 꾸준히 한걸음 한걸음 다가가다 보면 끝이 보이길 마련이며 <br />
                    결승점에 도달 했을 때에 성취감은 이뤄말 할 수 없습니다.
                 </p>
-                <p {...useScrollFadeIn('down', 1, 0.4)}>
+                <p {...useScrollFadeIn('down', 1, 0.6)}>
                    결국 꾸준함과 성실함이 결승점에 갈 수 있는 원동력이라 생각합니다. <br />
                 </p>
                 <p {...useScrollAnimation()}>

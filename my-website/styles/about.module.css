@@ -93,3 +93,18 @@
         transform: translateY(100vh);
     }
 }
+
+
+@media screen and (max-width: 620px) {
+    .about_Text h1:nth-child(1){
+        font-size: 2rem;
+    }
+    
+    .about_Text p{
+        font-size: 1rem;
+    }
+
+    .about_Bg{
+        height: 70vh;
+    }   
+}
