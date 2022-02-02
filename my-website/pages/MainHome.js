@@ -3,6 +3,9 @@ import Intro from './Intro'
 import About from './About'
 import Test from './test'
 import Test1 from './Test1'
+import Footer from './Footer'
+
+import { FaArrowUp } from 'react-icons/fa';
 
 function MainHome() {
 
@@ -32,9 +35,11 @@ function MainHome() {
         <section>
             <Intro handleScroll={handleScroll}/>
         </section>
+
         <section ref={aboutSection}>
             <About />
         </section>
+
         <section>
         <Test />
         </section>
@@ -45,10 +50,12 @@ function MainHome() {
         <Test />
         </section>
         <section>
-        <Test1 />
+        <Footer />
         </section>
 
-         <div className="ontop" onClick={moveToTop}>위로가기</div>
+         <div className="ontop" onClick={moveToTop}>
+             <FaArrowUp />
+         </div>
         </>
     )
 }

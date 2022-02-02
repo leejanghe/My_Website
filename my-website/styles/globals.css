@@ -20,8 +20,31 @@ a {
   box-sizing: border-box;
 }
 
-/* img{
-  border-radius: 50%;
-  width: 30%;
-  height: 60%;
-} */
+h1{
+  margin: 0;
+}
+
+.App{
+  position: relative;
+}
+
+.ontop{
+  position: absolute;
+      top: 97%;
+      bottom: 10%;
+      right: 1.8%;
+      width: 3rem;
+      height: 3rem;
+      border-radius: 50%;
+      background: rgba(128, 128, 128, 0.507);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: rgba(255, 255, 255, 0.479);
+      cursor: pointer;
+}
+
+.ontop:active{
+  transform: scale(0.9);
+  background-color: red;
+}

@@ -29,6 +29,11 @@
       position: fixed;
       top: 80%;
       animation: animateDown 3s linear infinite;
+      cursor: pointer;
+  }
+
+  .arrow:hover{
+      color: red;
   }
 
   @keyframes animateDown {

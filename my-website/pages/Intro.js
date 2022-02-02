@@ -1,4 +1,4 @@
-import React ,{ useCallback, useEffect, useRef, useState }from 'react'
+import React ,{useEffect, useRef}from 'react'
 import Typical from 'react-typical'
 import styles from '../styles/Intro.module.css'
 import { IoIosArrowDropdown } from 'react-icons/io';
