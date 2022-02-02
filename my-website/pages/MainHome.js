@@ -22,10 +22,16 @@ function MainHome() {
 
     const handleScroll = () => {
         const offsetTop = aboutSection.current.offsetTop;
-        window.scrollTo({
-            top: offsetTop,
-            behavior: 'smooth'
-        })
+        console.log('1', scrollX)
+
+        if(!offsetTop){
+            aboutSection.current.style.display = 'none'
+        }else{
+            window.scrollTo({
+                top: offsetTop,
+                behavior: 'smooth'
+            })
+        }
     }
 
 

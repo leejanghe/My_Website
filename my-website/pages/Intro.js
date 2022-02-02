@@ -16,6 +16,14 @@ function Intro(props) {
       const { current } = textLocation;
       current.style.display = 'inline-block'
     }
+    const ArrowFuncNone = () => {
+        const { current } = arrowLocation;
+        current.style.display = 'none'
+      }
+      const ArrowFuncBlock = () => {
+        const { current } = arrowLocation;
+        current.style.display = 'inline-block'
+      }
   
     const handleFadeOut = () => {
       const { current } = textLocation;
@@ -34,10 +42,12 @@ function Intro(props) {
         if (scrollTop >= 50) {
             arrowLocation.current.style.transition = 'all .5s'
             arrowLocation.current.style.opacity = 0
+            setTimeout(ArrowFuncNone, 500)
           }
           else {
             arrowLocation.current.style.transition = 'all .5s'
             arrowLocation.current.style.opacity = 1
+            setTimeout(ArrowFuncBlock, 500)
           }
       
         }

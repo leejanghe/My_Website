@@ -30,6 +30,7 @@
       top: 80%;
       animation: animateDown 3s linear infinite;
       cursor: pointer;
+      transform: translateX(-50%);
   }
 
   .arrow:hover{
