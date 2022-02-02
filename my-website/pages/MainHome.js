@@ -1,11 +1,19 @@
 import React,{useRef} from 'react'
 import Intro from './Intro'
 import About from './About'
-import Test from './test'
-import Test1 from './Test1'
+import Profile from './Profile'
+import Skills from './Skills'
+import Archiving from './Archiving'
 import Footer from './Footer'
+import Project from './Project'
+import OtherStudy from './OtherStudy'
 
 import { FaArrowUp } from 'react-icons/fa';
+
+
+
+
+
 
 function MainHome() {
 
@@ -47,16 +55,27 @@ function MainHome() {
         </section>
 
         <section>
-        <Test />
+            <Profile />
         </section>
+
         <section>
-        <Test1 />
+            <Skills />
         </section>
+
         <section>
-        <Test />
+            <Archiving />
         </section>
+
         <section>
-        <Footer />
+            <Project />
+        </section>
+
+        <section>
+            <OtherStudy />
+        </section>
+
+        <section>
+            <Footer />
         </section>
 
          <div className="ontop" onClick={moveToTop}>
