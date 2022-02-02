@@ -1,0 +1,83 @@
+.test{
+    background-color: chartreuse;
+    width: 100%;
+    height: 100vh;
+}
+
+.test1{
+    /* background-color: chartreuse; */
+    /* background-color: #fff; */
+    width: 100%;
+    height: 400px;
+    opacity: .5;
+}
+
+
+
+.Introbg{
+    height: 100vh;
+    width: 100%;
+    margin: 0, auto;
+    text-align: center;
+    background:radial-gradient(ellipse at bottom, #1b2735 0%,#090a0f 100%);
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .content{
+    color: rgb(254, 254, 254);
+    font-size: 3rem;
+  }
+
+  .ss{
+    height: 100vh;
+    width: 100%;
+    background:radial-gradient(ellipse at bottom, #1b2735 0%,#090a0f 100%);
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 0;
+    background-attachment: scroll;
+  }
+
+  .snow{
+    opacity: 0;
+    background-color: #fff;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    animation: circle 10s linear infinite;
+}
+
+
+@keyframes circle {
+    0% {
+        opacity: 0;
+        transform: translateY(0);
+        background-color: brown;
+    }
+    20% {
+        opacity: 1;
+        transform: translateY(-15px, 20vh);
+        background-color: rgb(165, 42, 147);
+    }
+    40% {
+        opacity: 1;
+        transform: translate(15px, 40vh);
+        background-color: rgb(42, 165, 122);
+    }
+    60% {
+        opacity: 1;
+        transform: translate(-15px, 60vh);
+        background-color: rgb(42, 87, 165);
+    }
+    80% {
+        opacity: 1;
+        transform: translate(15px, 80vh);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(100vh);
+    }
+}

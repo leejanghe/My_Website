@@ -1,9 +1,14 @@
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    background-image: url('https://user-images.githubusercontent.com/75570030/152113835-6025ebaf-c205-4724-b474-91330ed7b26e.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 a {
@@ -14,3 +19,9 @@ a {
 * {
   box-sizing: border-box;
 }
+
+/* img{
+  border-radius: 50%;
+  width: 30%;
+  height: 60%;
+} */
