@@ -6,7 +6,8 @@
     text-align: center;
     background:radial-gradient(ellipse at bottom, #1b2735 0%,#090a0f 100%);
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    overflow: hidden;
     position: absolute;
   }
 
@@ -36,8 +37,8 @@
   .circleBox{
     opacity: 0;
     background-color: #fff;
-    width: 10px;
-    height: 10px;
+    width: 7px;
+    height: 7px;
     border-radius: 50%;
     animation: circle 10s linear infinite;
 }
@@ -108,4 +109,7 @@
     .about_Bg{
         height: 70vh;
     }   
+    /* .circleBox{
+        display: none;
+    } */
 }

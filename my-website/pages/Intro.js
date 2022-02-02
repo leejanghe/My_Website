@@ -54,7 +54,7 @@ function Intro(props) {
 
     return (
         <div className={styles.IntroBg}>
-            {/* <img src='./img/intro.jpg'/> */}
+            <>
               <p className={styles.IntroText} ref={textLocation}>
                 {'  '}<Typical
                         loop={Infinity}
@@ -64,6 +64,7 @@ function Intro(props) {
                  '프론트 개발자 이장희입니다.', 3000,
                  '제 웹사이트에 오신 것을 환영합니다 :)', 3000, 
                 ]}/></p> 
+                </>
                  <div className={styles.arrow} onClick={props.handleScroll} ref={arrowLocation}>
                  <IoIosArrowDropdown />
                  </div>
