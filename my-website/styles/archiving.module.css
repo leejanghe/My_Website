@@ -1,5 +1,27 @@
-.test{
-    background-color: rgba(21, 39, 3, 0.904);
+.arch_bg{
+    background-color: #222;
     width: 100%;
-    height: 100vh;
+    height: 60vh;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+}
+
+.arch_title{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.arch_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.arch_content{
+    display: flex;
+    margin-top: 10vh;
 }

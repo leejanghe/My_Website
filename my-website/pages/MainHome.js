@@ -13,8 +13,6 @@ import { FaArrowUp } from 'react-icons/fa';
 
 
 
-
-
 function MainHome() {
 
     const aboutSection = useRef(null);
