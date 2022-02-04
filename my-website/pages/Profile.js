@@ -6,11 +6,14 @@ import {BsFillTelephoneFill} from 'react-icons/bs'
 import {MdEmail} from 'react-icons/md'
 import {FaPen} from 'react-icons/fa'
 
+import useScrollFadeIn from '../components/useScrollFadeIn.js'
+import useScrollAnimation from '../components/useScrollAnimation'
+
 function Profile() {
     return (
         <div className={styles.profile_bg}>
-            <h1>Profile</h1>
-            <div className={styles.profile_boxgrid}>
+            <h1 {...useScrollAnimation()}>Profile</h1>
+            <div className={styles.profile_boxgrid} {...useScrollFadeIn('up', 1, 0.4)}>
                 <div className={styles.profile_content}>
                     <div className={styles.profile_icon}>
                         <FaUser/>
