@@ -10,7 +10,8 @@ function Archiving() {
                 <div className={styles.arch_title} {...useScrollFadeIn('down', 1, 0.4)}>
                     <h1>Archiving</h1>
                 </div>
-                <div className={styles.arch_content} {...useScrollFadeIn('left', 1, 0.4)}>
+                {/* {...useScrollFadeIn('left', 1, 0.4)} */}
+                <div className={styles.arch_content} {...useScrollFadeIn('right', 1,0.5)}>
                     <div className={styles.arch_content_box}>
                         <div className={styles.arch_header}>
                             <img src="./img/github.png"/>
