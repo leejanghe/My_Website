@@ -13,7 +13,7 @@ function Profile() {
     return (
         <div className={styles.profile_bg}>
             <h1 {...useScrollAnimation()}>Profile</h1>
-            <div className={styles.profile_boxgrid} {...useScrollFadeIn('up', 1, 0.4)}>
+            <div className={styles.profile_boxgrid}>
                 <div className={styles.profile_content}>
                     <div className={styles.profile_icon}>
                         <FaUser/>
