@@ -4,6 +4,8 @@ import Link from 'next/link'
 import {studyData} from '../assets/data.js'
 import {BsGithub} from 'react-icons/bs'
 import {CgWebsite} from 'react-icons/cg'
+import useScrollFadeIn from '../components/useScrollFadeIn.js'
+import useScrollAnimation from '../components/useScrollAnimation'
 
 function OtherStudy() {
 
@@ -11,7 +13,7 @@ function OtherStudy() {
     
     return (
         <div className={styles.study_bg}>
-            <h1 className={styles.study_title}>Other Study</h1>
+            <h1 className={styles.study_title} {...useScrollAnimation()}>Other Study</h1>
             <div className={styles.study_boxbg}>
             {studyData &&
                 studyData.map((el)=>
