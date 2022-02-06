@@ -14,7 +14,7 @@ function Profile() {
         <div className={styles.profile_bg}>
             <h1 {...useScrollAnimation()}>Profile</h1>
             <div className={styles.profile_boxgrid}>
-                <div className={styles.profile_content}>
+                <div className={styles.profile_content} {...useScrollFadeIn('down', 1, 0.4)}>
                     <div className={styles.profile_icon}>
                         <FaUser/>
                     </div>
@@ -23,7 +23,7 @@ function Profile() {
                         <p>이장희</p>
                     </div>
                 </div>
-                <div className={styles.profile_content}>
+                <div className={styles.profile_content} {...useScrollFadeIn('down', 1, 0.4)}>
                     <div className={styles.profile_icon}>
                         <BsCalendarWeekFill/>
                     </div>
@@ -32,7 +32,7 @@ function Profile() {
                         <p>92.03.03</p>
                     </div>
                 </div>
-                <div className={styles.profile_content}>
+                <div className={styles.profile_content} {...useScrollFadeIn('down', 1, 0.4)}>
                     <div className={styles.profile_icon}>
                         <BsFillTelephoneFill/>
                     </div>
@@ -41,7 +41,7 @@ function Profile() {
                         <p>010-0000-0000</p>
                     </div>
                 </div>
-                <div className={styles.profile_content}>
+                <div className={styles.profile_content} {...useScrollFadeIn('up', 1, 0.5)}>
                     <div className={styles.profile_icon}>
                         <MdEmail/>
                     </div>
@@ -51,7 +51,7 @@ function Profile() {
                         
                     </div>
                 </div>
-                <div className={styles.profile_content}>
+                <div className={styles.profile_content} {...useScrollFadeIn('up', 1, 0.5)}>
                     <div className={styles.profile_icon}>
                         <FaPen/>
                     </div>
