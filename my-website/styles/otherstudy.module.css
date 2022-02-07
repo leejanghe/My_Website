@@ -51,6 +51,7 @@
     grid-auto-rows: 1fr;
     margin: 0 auto;
     padding-top:2rem;
+    width: 85%;
 }
 
 .study_box img{
