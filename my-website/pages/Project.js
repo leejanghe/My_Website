@@ -4,6 +4,10 @@ import {projectData} from '../assets/data.js'
 import Slider from 'react-slick'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Project1 from '../components/Project1';
+import Project2 from '../components/Project2';
+import Project3 from '../components/Project3';
+import Project4 from '../components/Project4';
 
 function Project() {
 
@@ -20,13 +24,21 @@ function Project() {
     console.log(projectData)
 
     return (
-        <div className={styles.test}>
-            <h1>projcet!!!</h1>
-            <Slider {...settings}>
-                <div>1</div>
-                <div>2</div>
-                <div>3</div>
-                <div>5</div>
+        <div className={styles.project_bg}>
+            <h1 className={styles.project_title}>Project</h1>
+            <Slider {...settings} className={styles.project_sliderBg}>
+                <div>
+                    <Project1/>
+                </div>
+                <div>
+                    <Project2 />
+                </div>
+                <div>
+                    <Project3 />
+                </div>
+                <div>
+                    <Project4 />
+                </div>
             </Slider>
         </div>
     )

@@ -1,12 +1,12 @@
 const studyData = [{
     id : 0,
     title: "Up Down Game",
-    subtitle:"11111",
+    subtitle:"react로 만든 웹 게임 입니다.",
     image: "https://user-images.githubusercontent.com/75570030/152680146-b38248d7-2c70-4228-a975-e5e94af9162a.png",
     github: "https://github.com/leejanghe/up_and_down_game",
     site: "https://up-and-down-github-io.vercel.app/",
-    stack:"222222",
-    content : 'adsfasdf'
+    stack:"react, html, css",
+    content : 'React에서 useState와 input값 사용 이해를 향상 시키고 렌덤함수와 setTimeout를 응용해해서 만든 간단한 웹 게임입니다!'
     },
     {
     id : 1,
@@ -52,13 +52,14 @@ const studyData = [{
 
 const projectData =[
     {
-      name: "kim Coding",
-      userImage: "https://placeimg.com/200/200/people",
-      postImage: "https://www.crescenthill.com/wp-content/uploads/2021/07/Banner-Image-188435-e1626372383514.jpg",
-      likes: 20,
-      date: "Apr 20",
-      liked: false,
-      content: "풍경을 페인팅 아트로 표현했어요! 너무 아름다워요!",
+      id: 0,
+      title: "Starbucks Clone",
+      subtitle:"123123123",
+      image: "https://user-images.githubusercontent.com/75570030/152698188-91a456e5-c65e-4758-a8c3-48d9f5f44c9e.png",
+      github: "https://github.com/leejanghe/starbucks-cloncoding",
+      site: "https://starbucks-cloncoding.vercel.app/",
+      stack:"123123123",
+      content : 'adsfasdf'
     },
   ]
 

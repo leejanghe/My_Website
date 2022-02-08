@@ -25,13 +25,13 @@ function OtherStudy() {
                     <div className={styles.study_header}>
                         <h1>{el.title}</h1>
                         <p>{el.subtitle}</p>
-                        <p>{el.stack}</p>
+                        <p>stack : {el.stack}</p>
                     </div>
-                    <div>
-                        <Link href={el.github} ><a target="_blank">Github <BsGithub/></a></Link>
-                        <Link href={el.site} ><a target="_blank">website <CgWebsite/></a></Link>
+                    <div className={styles.study_link}>
+                        <Link href={el.github} ><a target="_blank"><BsGithub/> Github </a></Link>
+                        <Link href={el.site} ><a target="_blank"><CgWebsite/> website </a></Link>
                     </div>
-                    <div>
+                    <div className={styles.study_text}>
                         <p>{el.content}</p>
                     </div>
                     </div>
