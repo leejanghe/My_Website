@@ -16,7 +16,7 @@ const studyData = [{
     github: "https://github.com/leejanghe/paint",
     site: "https://paint-five.vercel.app/",
     stack:"123",
-    content : 'adsfasdf'
+    content : 'React에서 useState와 input값 사용 이해를 향상 시키고 렌덤함수와 setTimeout를 응용해해서 만든 간단한 웹 게임입니다!'
     },
     {
     id : 2,
@@ -53,6 +53,36 @@ const studyData = [{
 const projectData =[
     {
       id: 0,
+      title: "Starbucks Clone",
+      subtitle:"123123123",
+      image: "https://user-images.githubusercontent.com/75570030/152698188-91a456e5-c65e-4758-a8c3-48d9f5f44c9e.png",
+      github: "https://github.com/leejanghe/starbucks-cloncoding",
+      site: "https://starbucks-cloncoding.vercel.app/",
+      stack:"123123123",
+      content : 'React에서 useState와 input값 사용 이해를 향상 시키고 렌덤함수와 setTimeout를 응용해해서 만든 간단한 웹 게임입니다!가나다라마바사아자차카타파하시시시슈슈React에서 useState와 input값 사용 이해를 향상 시키고 렌덤함수와 setTimeout를 응용해해서 만든 간단한 웹 게임입니다!가나다라마바사아자차카타파하시시시슈슈'
+    },
+    {
+      id: 1,
+      title: "Starbucks Clone",
+      subtitle:"123123123",
+      image: "https://user-images.githubusercontent.com/75570030/152698188-91a456e5-c65e-4758-a8c3-48d9f5f44c9e.png",
+      github: "https://github.com/leejanghe/starbucks-cloncoding",
+      site: "https://starbucks-cloncoding.vercel.app/",
+      stack:"123123123",
+      content : 'adsfasddaslkfjklasdjfklajskdlfjklasdjklfjlaksdjfkjasldkjflaadklsfjlkadsff'
+    },
+    {
+      id: 2,
+      title: "Starbucks Clone",
+      subtitle:"123123123",
+      image: "https://user-images.githubusercontent.com/75570030/152698188-91a456e5-c65e-4758-a8c3-48d9f5f44c9e.png",
+      github: "https://github.com/leejanghe/starbucks-cloncoding",
+      site: "https://starbucks-cloncoding.vercel.app/",
+      stack:"123123123",
+      content : 'adsfasdf'
+    },
+    {
+      id: 3,
       title: "Starbucks Clone",
       subtitle:"123123123",
       image: "https://user-images.githubusercontent.com/75570030/152698188-91a456e5-c65e-4758-a8c3-48d9f5f44c9e.png",

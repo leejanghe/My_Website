@@ -19,7 +19,7 @@ function OtherStudy() {
                 studyData.map((el)=>
                 <div className={styles.study_box} key={el.id}>
                     
-                        <img src={el.image} width="30%"/>
+                        <img src={el.image}/>
        
                     <div className={styles.study_container}>
                     <div className={styles.study_header}>

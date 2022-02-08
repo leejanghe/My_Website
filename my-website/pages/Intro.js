@@ -28,7 +28,7 @@ function Intro(props) {
     const handleFadeOut = () => {
       const { current } = textLocation;
       const scrollTop = document.documentElement.scrollTop;
-      current.style.transition = 'all .5s';
+        current.style.transition = 'all .5s';
   
       // fade in-out
       if (scrollTop >= 300) {
