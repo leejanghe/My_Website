@@ -53,43 +53,43 @@ const studyData = [{
 const projectData =[
     {
       id: 0,
-      title: "Starbucks Clone",
-      subtitle:"123123123",
-      image: "https://user-images.githubusercontent.com/75570030/152698188-91a456e5-c65e-4758-a8c3-48d9f5f44c9e.png",
-      github: "https://github.com/leejanghe/starbucks-cloncoding",
-      site: "https://starbucks-cloncoding.vercel.app/",
-      stack:"123123123",
-      content : 'React에서 useState와 input값 사용 이해를 향상 시키고 렌덤함수와 setTimeout를 응용해해서 만든 간단한 웹 게임입니다!가나다라마바사아자차카타파하시시시슈슈React에서 useState와 input값 사용 이해를 향상 시키고 렌덤함수와 setTimeout를 응용해해서 만든 간단한 웹 게임입니다!가나다라마바사아자차카타파하시시시슈슈'
+      title: "Momentum App (개인)",
+      subtitle:"TodoList 웹 서비스 만들기",
+      image: "https://user-images.githubusercontent.com/75570030/150695227-4ed3e84f-abc9-43cc-a7fe-76a7ec1cb8e8.png",
+      github: "https://github.com/leejanghe/Momentum-App",
+      site: "https://momentum-app.vercel.app/",
+      stack:"JS, HTML, CSS",
+      content : '순수 자바스크립트를 활용하여 간단한 웹 서비스를 만들었습니다. 기능으로는 렌덤 배경 화면 출력, 실시간 기능, 위치 기반 날씨 및 기상정보 기능, 렌덤 명언 출력 기능, todolist기능이 있습니다. 이 프로젝트를 통해 자바스크립트에 대한 이해와 api활용 방법에 대해 깊게 공부 할 수 있는 계기가 되었으며 추후 좀 더 기능을 보완 할 예정입니다.'
     },
     {
       id: 1,
-      title: "Starbucks Clone",
-      subtitle:"123123123",
+      title: "My Website (개인)",
+      subtitle:"나만의 웹 포토폴리오 사이트 만들기",
       image: "https://user-images.githubusercontent.com/75570030/152698188-91a456e5-c65e-4758-a8c3-48d9f5f44c9e.png",
-      github: "https://github.com/leejanghe/starbucks-cloncoding",
-      site: "https://starbucks-cloncoding.vercel.app/",
-      stack:"123123123",
-      content : 'adsfasddaslkfjklasdjfklajskdlfjklasdjklfjlaksdjfkjasldkjflaadklsfjlkadsff'
+      github: "https://github.com/leejanghe/My_Website",
+      site: "https://my-website-iota-seven.vercel.app/",
+      stack:"React, Next.js, PostCSS ",
+      content : 'Next.js 학습하면서 공부한 내용을 바탕으로 포토폴리오 웹 사이트를 만들었습니다. 스크롤, 타이핑 애니메이션 효과 등을 이용하여 동적인 웹사이트를 구현하려고 노력 하였고, 일부 라이브러리를 활용하여 웹사이트 곳곳에 재미 요소를 부각 시켰습니다. 또 한 이 프로젝트를 통해 ref와 hook사용에 대해 깊게 공부 할 수 있었고 리엑트와 달리 next.js의 부드러움을 느낄 수 있었습니다.(SSR)'
     },
     {
       id: 2,
-      title: "Starbucks Clone",
-      subtitle:"123123123",
-      image: "https://user-images.githubusercontent.com/75570030/152698188-91a456e5-c65e-4758-a8c3-48d9f5f44c9e.png",
-      github: "https://github.com/leejanghe/starbucks-cloncoding",
-      site: "https://starbucks-cloncoding.vercel.app/",
-      stack:"123123123",
-      content : 'adsfasdf'
+      title: "Touch (팀 프로젝트)",
+      subtitle:"쉬어가는 웹 서비스",
+      image: "https://user-images.githubusercontent.com/75570030/152960120-27e17884-292e-4983-a00f-61609dfb149a.png",
+      github: "https://github.com/leejanghe/Touch",
+      site: "https://touch.or.kr/",
+      stack:"React, Styled-Components, Axios",
+      content : '현대인들의 지친 일상을 달래주고자 시작 한 힐링 웹사이트 입니다. 공감각 자극(소리와 이미지)을 활용하여 사용자의 심신을 안정시키고 잠깐 쉬어가는 컨셉인 웹사이트 입니다. 제가 구현한 기능으로는 검색기능, 오디어 제어(재생 및 정지), 풀스크린, 찜 하기 기능 등을 구현 하였고 팀장 역할을 통해 전반적인 프로젝트 관리 및 팀원들과 원활한 커뮤니케이션을 위해 많은 기여를 한 바가 있습니다.'
     },
     {
       id: 3,
-      title: "Starbucks Clone",
-      subtitle:"123123123",
+      title: "Chatting App(개인 준비중)",
+      subtitle:"채팅 서비스 만들기",
       image: "https://user-images.githubusercontent.com/75570030/152698188-91a456e5-c65e-4758-a8c3-48d9f5f44c9e.png",
-      github: "https://github.com/leejanghe/starbucks-cloncoding",
-      site: "https://starbucks-cloncoding.vercel.app/",
-      stack:"123123123",
-      content : 'adsfasdf'
+      github: "https://github.com/leejanghe/React_Socket",
+      site: "#",
+      stack:"React, Sokcet.io",
+      content : 'Sokcet.io에 대한 호기심과 부딪쳐 보고 싶은 충동에 시작한 프로젝트 입니다. 외부 강의와 공식문서를 통해 Socket.io에 대한 전반적인 지식을 습득 할 수 있었고 이번 프로젝트에서는 간단한 채팅까지는 완료 하였지만 화상 채팅 기능 까지 넣어 보고자 잠시 보류중에 있습니다. 화상채팅을 할 수 있는 방법에 대해 연구하고 추후 업데이트 할 예정입니다.'
     },
   ]
 

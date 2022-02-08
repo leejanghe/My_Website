@@ -11,7 +11,7 @@ import Project4 from '../components/Project4';
 function Project() {
 
     const settings = {
-        // autoplay: true,
+        autoplay: true,
         autoplaySpeed: 3000,
         Infinity: true,
         dots:true,

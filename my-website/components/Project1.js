@@ -13,7 +13,7 @@ function Project1() {
             <div className={styles.project_header}>
                 <h1>{projectData[0].title}</h1>
                 <p>{projectData[0].subtitle}</p>
-                <p>stack : {projectData[0].stack}</p>
+                <p>Stack : {projectData[0].stack}</p>
             </div>
                 <div className={styles.project_link}>
                     <Link href={projectData[0].github} ><a target="_blank">Github</a></Link>
