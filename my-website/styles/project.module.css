@@ -18,7 +18,7 @@
 .project_sliderBg{
     background-color: rgb(255, 255, 255);
     border-radius : 1rem;
-    width: 70%;
+    width: 60%;
     height: 60vh;
     margin-top: 3rem;
     display: flex;
@@ -71,6 +71,14 @@
 
 .project_link a:nth-child(1){
     margin-right: .5rem;
+}
+
+.project_link a:nth-child(1):hover{
+    color: red;
+}
+
+.project_link a:nth-child(2):hover{
+    color: red;
 }
 
 

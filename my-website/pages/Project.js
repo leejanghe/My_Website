@@ -7,6 +7,7 @@ import Project1 from '../components/Project1';
 import Project2 from '../components/Project2';
 import Project3 from '../components/Project3';
 import Project4 from '../components/Project4';
+import useScrollAnimation from '../components/useScrollAnimation'
 
 function Project() {
 
@@ -22,7 +23,7 @@ function Project() {
 
     return (
         <div className={styles.project_bg}>
-            <h1 className={styles.project_title}>Project</h1>
+            <h1 className={styles.project_title} {...useScrollAnimation()}>Project</h1>
             <Slider {...settings} className={styles.project_sliderBg}>
                 <div>
                     <Project1/>
