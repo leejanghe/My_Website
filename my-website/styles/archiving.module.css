@@ -93,7 +93,14 @@
 .arch_content_box:hover .arch_content_text{
     opacity: 1;
 }
-
+@media screen and (max-width: 920px) {
+    
+    
+    .arch_content_box{
+        height: 100%;
+        width: 80%;
+    }
+}
 
 @media screen and (max-width: 620px) {
     .arch_content{

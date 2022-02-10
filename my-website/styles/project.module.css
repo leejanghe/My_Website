@@ -85,3 +85,13 @@
 .project_text{
     font-weight: 500;
 }
+
+
+@media screen and (max-width: 900px) {
+    .innerProject_bg img{
+       display: none;
+    }
+    .innerProject_bg{
+        grid-template-columns: 1fr;
+    }
+}

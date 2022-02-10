@@ -38,7 +38,7 @@ function Profile() {
                     </div>
                     <div className={styles.profile_text}>
                         <h2>연락처</h2>
-                        <p>010-0000-0000</p>
+                        <p>010-6812-3470</p>
                     </div>
                 </div>
                 <div className={styles.profile_content} {...useScrollFadeIn('up', 1, 0.5)}>
@@ -57,7 +57,7 @@ function Profile() {
                     </div>
                     <div className={styles.profile_text}>
                         <h2>학력</h2>
-                        <p>서울대학교 컴퓨터공학과 였으면..</p>
+                        <p>홍익대학교 산업디자인 대학원(휴학)</p>
                     </div>
                 </div>
             </div>

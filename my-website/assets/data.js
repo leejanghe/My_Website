@@ -85,7 +85,7 @@ const projectData =[
       id: 3,
       title: "Chatting App(개인 준비중)",
       subtitle:"채팅 서비스 만들기",
-      image: "https://user-images.githubusercontent.com/75570030/152698188-91a456e5-c65e-4758-a8c3-48d9f5f44c9e.png",
+      image: "https://user-images.githubusercontent.com/75570030/153467998-53d710f3-bdd6-460a-bafb-a8535e2cf690.png",
       github: "https://github.com/leejanghe/React_Socket",
       site: "#",
       stack:"React, Sokcet.io",
