@@ -27,6 +27,7 @@
     margin-top: 2rem;
     color: rgb(96, 92, 92);
     border-bottom: rgb(96, 92, 92) solid 2px;
+    font-family: 'Baloo Bhaijaan 2', cursive;
 }
 
 .skills_front{
@@ -74,7 +75,7 @@
 
 @media screen and (max-width: 1120px) {
     .skills_bg{
-        height: 200vh;
+        height: 180vh;
     }
     .skills_container{
         display: block;

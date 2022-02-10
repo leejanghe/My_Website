@@ -1,4 +1,9 @@
-
+@font-face {
+    font-family: 'KOTRAHOPE';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/KOTRAHOPE.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
 .about_Bg{
     height: 100vh;
     width: 100%;
@@ -20,12 +25,14 @@
     right: auto;
     width: 100%;
     height: 100vh;
+    font-family: 'Baloo Bhaijaan 2', cursive;
 }
 
 .about_Text p{
     padding-left: 2rem;
     padding-bottom: 3px;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
+    font-family: 'KOTRAHOPE';
 }
 
 .about_Text h1{

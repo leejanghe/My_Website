@@ -1,7 +1,7 @@
 .study_bg{
     background-color: rgba(34, 34, 34, 0.968);
     width: 100%;
-    height: 190vh;
+    height: 210vh;
     /* color: #fff; */
     display: flex;
     /* justify-content: center; */
@@ -17,7 +17,7 @@
     color: #fff;
     text-align: center;
     border-bottom: rgba(255, 255, 255, 0.954) solid 2px;
-    
+    font-family: 'Baloo Bhaijaan 2', cursive;
 }
 
 .study_box{
