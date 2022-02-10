@@ -71,3 +71,25 @@
     height: 75%;
     object-fit: cover;
 }
+
+@media screen and (max-width: 1120px) {
+    .skills_bg{
+        height: 200vh;
+    }
+    .skills_container{
+        display: block;
+    }
+    .skills_front{
+        width: 70%;
+        margin: auto;
+    }
+    .skills_etc{
+        width: 70%;
+        margin: auto;
+    }
+    .skills_back{
+        width: 70%;
+        margin: auto;
+    }
+}
+
