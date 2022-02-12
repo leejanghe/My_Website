@@ -78,7 +78,7 @@
 
 @media screen and (max-width: 720px) {
     .profile_bg{
-        height: 160vh;
+        height: 240vh;
     }
     .profile_boxgrid{
         display: block;
