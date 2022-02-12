@@ -70,9 +70,9 @@ function Intro(props) {
                         loop={Infinity}
                         wrapper="border"
                         steps={[
-                 '안녕하세요! 반갑습니다!!!', 2000, 
-                 '프론트 개발자 이장희입니다.', 3000,
-                 '제 웹사이트에 오신 것을 환영합니다 :)', 3000, 
+                 '안녕하세요! 코딩하기 좋은 날입니다~', 2000, 
+                 '저는 프론트 개발자를 꿈꾸는 이장희입니다.', 3000,
+                 '제 웹사이트에 오신 것을 환영합니다 :)', 5000, 
                 ]}/></p> 
                 </>
                  <div className={styles.arrow} onClick={props.handleScroll} ref={arrowLocation}>

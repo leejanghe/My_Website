@@ -6,6 +6,8 @@
   font-style: normal;
 }
 
+/* @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap'); */
+
 html,
 body {
     padding: 0;
@@ -36,6 +38,8 @@ h1{
 .App{
   position: relative;
   font-family: 'GowunDodum-Regular';
+  /* font-family: 'Baloo Bhaijaan 2', cursive; */
+  /* font-family: 'Noto Sans KR', sans-serif; */
 }
 
 .ontop{

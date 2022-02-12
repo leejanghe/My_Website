@@ -32,7 +32,7 @@ function About() {
                 <h1 {...useScrollFadeIn('up', 1, 0.2)}>About Me!</h1>
                 <p {...useScrollFadeIn('up', 1, 0.3)}>
                     안녕하십니까! 주니어 프론트 개발자 이장희 입니다!
-                    <br />
+                    {/* <br /> */}
                 </p>
                 <br />
                 <p {...useScrollFadeIn('down', 1, 0.4)}>
