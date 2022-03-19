@@ -15,7 +15,7 @@ function Footer() {
                 <div className={styles.footer_link}>
                     <Link href="https://github.com/leejanghe" ><a target="_blank">Github</a></Link>
                     <Link href="https://joy-codeing-lee.tistory.com/"><a id={styles.footer_md} target="_blank">Blog</a></Link>
-                    <Link href="https://github.com/leejanghe/My_Website/files/8079797/_._.pdf"><a target="_blank">Resume</a></Link>
+                    <Link href="https://github.com/leejanghe/Tailwind_CSS_Tour/files/8309280/5c8979e4894cb49c.pdf"><a target="_blank">Resume</a></Link>
                 </div>
                 <span>© Copyright 2022 Lee Jang He. All rights reserved</span>
             </div>
